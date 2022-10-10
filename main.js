@@ -1,5 +1,5 @@
-let chart = document.getElementById('chart').getContext('2d');
-let bmiChart = new Chart(chart, {
+let birdStrikeMonth = document.getElementById('chart1').getContext('2d');
+let chart1 = new Chart(birdStrikeMonth, {
     type: 'bar', //forskellige former af charts
     data: {
         labels:['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dec'],
