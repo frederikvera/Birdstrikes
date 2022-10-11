@@ -1,14 +1,38 @@
 .birdStrikeMonth {
     width: 500px;
-    height: 500px;
-}
-
-.birdStrikeCount {
-    width: 500px;
-    height: 500px;
+    height: 260px;
 }
 
 .birdStrikeSize {
     width: 500px;
-    height: 500px;
+    height: 260px;
+}
+
+.barChartClass {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.birdStrikeCount {
+    width: 330px;
+    height: 330px;
+}
+
+.pieChartClas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
 }
