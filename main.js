@@ -203,3 +203,4 @@ let chart2 = new Chart(birdStrikeCount, {
         }
     }
 });
+
