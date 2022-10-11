@@ -3,6 +3,8 @@
 // bar chart
 // Birdstrikes per month
 
+Chart.defaults.color = "#ffffff";
+
 let birdStrikeMonth = document.getElementById('chart1').getContext('2d');
 let chart1 = new Chart(birdStrikeMonth, {
     type: 'bar',
