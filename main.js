@@ -1,7 +1,7 @@
 
 // First chart
 // bar chart
-// Birdstrikes per month
+// Bird strikes per month
 
 Chart.defaults.color = "#ffffff";
 
@@ -63,7 +63,7 @@ let chart1 = new Chart(birdStrikeMonth, {
             x:{
                 title:{
                     display: true,
-                    text: 'Months',
+                    text: 'Months of the Year',
                     font: {
                         size: 20
                     }
@@ -143,7 +143,7 @@ let chart3 = new Chart(birdStrikeSize, {
             x:{
                 title:{
                     display: true,
-                    text: 'Size of the Bird',
+                    text: 'Size of the Birds',
                     font: {
                         size: 20
                     }
@@ -189,7 +189,7 @@ let chart3 = new Chart(birdStrikeSize, {
 
 let birdStrikeCount = document.getElementById('chart2').getContext('2d');
 let chart2 = new Chart(birdStrikeCount, {
-    type: 'pie',
+    type: 'doughnut',
     data: {
         labels:['1', '2-10', '11-100', 'More than 100'],
         datasets:[{
@@ -221,7 +221,6 @@ let chart2 = new Chart(birdStrikeCount, {
     options: {
         plugins:{
             legend:{
-                position: "right",
                 title: {
                     display: true,
                     text: `Birds hit per Incident`,
