@@ -61,11 +61,25 @@ let chart1 = new Chart(birdStrikeMonth, {
     options: {
         scales: {
             x:{
+                title:{
+                    display: true,
+                    text: 'Months',
+                    font: {
+                        size: 20
+                    }
+                },
                 grid:{
                     display: false
                 }
             },
             y:{
+                title:{
+                    display: true,
+                    text: 'Birds hit',
+                    font: {
+                        size: 20
+                    }
+                },
                 grid:{
                     display: false
                 }
@@ -127,11 +141,25 @@ let chart3 = new Chart(birdStrikeSize, {
     options: {
         scales: {
             x:{
+                title:{
+                    display: true,
+                    text: 'Size of the Bird',
+                    font: {
+                        size: 20
+                    }
+                },
                 grid:{
                     display: false
                 }
             },
             y:{
+                title:{
+                    display: true,
+                    text: 'Birds hit',
+                    font: {
+                        size: 20
+                    }
+                },
                 grid:{
                     display: false
                 }
@@ -196,9 +224,9 @@ let chart2 = new Chart(birdStrikeCount, {
                 position: "right",
                 title: {
                     display: true,
-                    text: `Birds hit per incident`,
+                    text: `Birds hit per Incident`,
                     font:{
-                        size: 25
+                        size: 20
                     }
                 }
             }

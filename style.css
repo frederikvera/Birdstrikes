@@ -3,13 +3,13 @@ body {
 }
 
 .birdStrikeMonth {
-    width: 500px;
-    height: 260px;
+    width: 530px;
+    height: 270px;
 }
 
 .birdStrikeSize {
-    width: 500px;
-    height: 260px;
+    width: 530px;
+    height: 270px;
 }
 
 .barChartClass {
@@ -19,7 +19,7 @@ body {
 }
 
 .birdStrikeCount {
-    width: 370px;
+    width: 400px;
     height: 370px;
 }
 
@@ -39,9 +39,5 @@ header {
 h1 {
     font-size: 40px;
     font-family: sans-serif;
-    color: white;
-}
-
-*{
     color: white;
 }
