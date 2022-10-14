@@ -225,7 +225,7 @@ let chart2 = new Chart(birdStrikeCount, {
                     display: true,
                     text: `Birds hit per Incident`,
                     font:{
-                        size: 20
+                        size: 25
                     }
                 }
             }
